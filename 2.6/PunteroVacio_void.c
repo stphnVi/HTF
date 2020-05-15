@@ -6,6 +6,13 @@ int main(){
     int int_array[5]= {1, 2, 3, 4, 5};
 
 //inicializando un puntero vacio
+/*
+estos punteros NO PUEDEN SER DESREFERENCIADOS debido que para hacerlo se necesita saber su tipo
+se pueden hacer cambios en el tipo de punteros para poder hacer aritmetica de los mismos.
+estas limitaciones l{ogicas, establecen que estos punteros sirven para que todo para guardar la direccion de una memoria}
+
+*/
+
     void *void_pointer;
     void_pointer= (void *) char_array;
 
