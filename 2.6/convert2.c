@@ -17,8 +17,8 @@ int main(int argc, char *argv[]){
 
 
 
-   // if(argc < 3)                            //si se usan menos de tres argumentos
-   //     usage(argv[0]);                     //muestra el mensage de informacion de uso y sal
+   if(argc < 3)                            //si se usan menos de tres argumentos
+    usage(argv[0]);                     //muestra el mensage de informacion de uso y sal
     count = atoi(argv[2]);                    //convierte el 2 argumento en un entero
     printf("repeating %d times..\n", count);
 
