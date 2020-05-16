@@ -6,7 +6,7 @@ int main(){
     int int_array[5]= {1, 2, 3, 4, 5};
 
 //inicializando una variable de tipo int sin signo para almacenar la dirección,
-
+//prueb
    unsigned int hacky_nonpointer;
    hacky_nonpointer = (unsigned int) char_array;
 
