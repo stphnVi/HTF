@@ -3,6 +3,11 @@
 #include <stdlib.h>
 #define FLOOD_DELAY 1000 //wait 1000 mss
 
+/*
+Based on examples  -> Nemesis, Libnet, The art of exploitation
+*/
+
+
 /*return ip x */
 char *print_ip(__u_long *ip_addr_ptr) {
    return inet_ntoa( *((struct in_addr *)ip_addr_ptr) );
