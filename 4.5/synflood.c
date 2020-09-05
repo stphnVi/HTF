@@ -1,7 +1,7 @@
 #include <libnet.h>
 #include <stdio.h>
 #include <stdlib.h>
-#define FLOOD_DELAY 1000 //wait 1000 ms
+#define FLOOD_DELAY 1000 //wait 1000 mss
 
 /*return ip x */
 char *print_ip(__u_long *ip_addr_ptr) {
