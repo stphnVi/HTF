@@ -10,6 +10,7 @@
 #include <string.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+//check depend
 //para compilar -- gcc -o simple_server simple_server.case
 //para ejecutar -- ./webserver
 //acceder -- abrir el buscador y poner http://localhost:8080/
