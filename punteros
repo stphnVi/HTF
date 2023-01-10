@@ -1,0 +1,30 @@
+punteros:
+
+Un puntero es un tipo de datos cuyo valor es una dirección de memoria.
+Es un tipo de variable que almacena una direcciòn de memoria y "aputa" al VALOR 
+que està en esa direcciòn, en ves de copiar a un lugar una cantidad grande de
+informaciòn se pasa la direcciòn de la memoria donde actualmente se almacena 
+la informaciòn.
+
+ejemplo de c 
+
+pointer.c
+
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+	char str_a[20]; //una matriz de 20 caracteres
+	char *pointer;  //Un putero, destinado a una matriz de caracteres
+	char *pointer; // otro màs
+
+	strcpy(str_a, "hello, world!\n");
+	pointer = str_a; // sintua en primer puntero al inicio de la matriz
+	printf(pointer);
+
+	pointer2 = pointer +2 // establece el segundo dos byter màs adelante
+	printf(pointer2); //lo muestra
+	strcpy(pointer2, "y you guys\n"); //Lo copia en ese punto
+	printf(pointer); //Lo vuelve a mostrar
+}
+
